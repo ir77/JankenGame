@@ -21,6 +21,9 @@
 		B1C4162F193640250097A17F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C41611193640250097A17F /* UIKit.framework */; };
 		B1C41637193640250097A17F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1C41635193640250097A17F /* InfoPlist.strings */; };
 		B1C41639193640250097A17F /* JannkenGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C41638193640250097A17F /* JannkenGameTests.m */; };
+		B1C4164B1937168C0097A17F /* janken_choki.png in Resources */ = {isa = PBXBuildFile; fileRef = B1C416481937168C0097A17F /* janken_choki.png */; };
+		B1C4164C1937168C0097A17F /* janken_gu.png in Resources */ = {isa = PBXBuildFile; fileRef = B1C416491937168C0097A17F /* janken_gu.png */; };
+		B1C4164D1937168C0097A17F /* janken_pa.png in Resources */ = {isa = PBXBuildFile; fileRef = B1C4164A1937168C0097A17F /* janken_pa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B1C41634193640250097A17F /* JannkenGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JannkenGameTests-Info.plist"; sourceTree = "<group>"; };
 		B1C41636193640250097A17F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1C41638193640250097A17F /* JannkenGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JannkenGameTests.m; sourceTree = "<group>"; };
+		B1C416481937168C0097A17F /* janken_choki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = janken_choki.png; sourceTree = "<group>"; };
+		B1C416491937168C0097A17F /* janken_gu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = janken_gu.png; sourceTree = "<group>"; };
+		B1C4164A1937168C0097A17F /* janken_pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = janken_pa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 				B1C4161F193640250097A17F /* Main.storyboard */,
 				B1C41622193640250097A17F /* ViewController.h */,
 				B1C41623193640250097A17F /* ViewController.m */,
+				B1C416481937168C0097A17F /* janken_choki.png */,
+				B1C416491937168C0097A17F /* janken_gu.png */,
+				B1C4164A1937168C0097A17F /* janken_pa.png */,
 				B1C41625193640250097A17F /* Images.xcassets */,
 				B1C41614193640250097A17F /* Supporting Files */,
 			);
@@ -229,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1C41626193640250097A17F /* Images.xcassets in Resources */,
+				B1C4164D1937168C0097A17F /* janken_pa.png in Resources */,
 				B1C41618193640250097A17F /* InfoPlist.strings in Resources */,
 				B1C41621193640250097A17F /* Main.storyboard in Resources */,
+				B1C4164B1937168C0097A17F /* janken_choki.png in Resources */,
+				B1C4164C1937168C0097A17F /* janken_gu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

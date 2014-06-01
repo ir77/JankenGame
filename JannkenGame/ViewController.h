@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)guButton:(id)sender;
+- (IBAction)chokiButton:(id)sender;
+- (IBAction)paButton:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *enemyHand;
+@property (weak, nonatomic) IBOutlet UIImageView *myHand;
+
 
 @end
